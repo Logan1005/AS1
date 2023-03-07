@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    grid-template-columns: 20%, 60%, 20%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "main main aside"
+    "footer footer footer"
+    ;
+}
+
+.navigation  {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation > li {
+    list-style: none;
+    display: block;
+    width: 10em;
+    float: left;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    height: 2.6em;
+}
+
+main img{
+    width: 25%;
+}

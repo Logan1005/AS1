@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #CCDBDC;
+    grid-area: header;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav {
+    background-color: #9AD1D4;
+    grid-area: nav;
+}
+
+main {
+    background-color: #80CED7;
+    grid-area: main;
+}
+
+aside {
+    background-color: #007EA7;
+}
+
+footer {
+    background-color: #003249;
+    grid-area: footer;
+}

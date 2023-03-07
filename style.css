@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: grid;
+    grid-template-columns: 20%, 60%, 20%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav nav nav"
+    "header header header"
+    "main main main"
+    "footer footer footer"
+    ;
+}
+
+header {
+    background-color: blue;
+    grid-area: header;
+}
+
+nav {
+    background-color: deeppink;
+    grid-area: nav;
+}
+
+main {
+    background-color: red;
+    grid-area: main;
+}
+
+footer {
+    background-color: forestgreen;
+    grid-area: footer;
+}
+
